@@ -28,7 +28,7 @@ It also provides methods to create a plugin and work with tasks as a module and/
 
 ##### Command:
 
-* Python
+* Node.js
 
         npm install ***TBD***
 
@@ -68,7 +68,7 @@ It also provides methods to create a plugin and work with tasks as a module and/
 
 ##### Quick Demo:
 
-[demo example - main.py](https://github.com/taskcontrols/js-taskcontrol/blob/master/main.py)
+[demo example - main.js](https://github.com/taskcontrols/js-taskcontrol/blob/master/main.js)
 
 
 ```js
@@ -162,11 +162,11 @@ Though it does not support Node version 8.x and above. However, it has not been 
     
     Describes in short the usage of the package
 
-* [taskcontrol `workflow` decorator](https://github.com/taskcontrols/js-taskcontrol/blob/master/docs/users/workflow.md)
+* [taskcontrol `workflow` decorator / function](https://github.com/taskcontrols/js-taskcontrol/blob/master/docs/users/workflow.md)
     
     Describes how to use the taskcontrol workflow decorator in detail
 
-* [taskcontrol `workflow` decorator argument details](https://github.com/taskcontrols/js-taskcontrol/blob/master/docs/users/workflow-arguments.md)
+* [taskcontrol `workflow` decorator / function argument details](https://github.com/taskcontrols/js-taskcontrol/blob/master/docs/users/workflow-arguments.md)
     
     Describes in detail the arguments of workflow decorator
 
