@@ -1,0 +1,35 @@
+{
+  "name": "taskcontrol",
+  "version": "0.0.0",
+  "description": "Create named isolated/shared workflow task controls and run the tasks with respective before and after middlewares in ordered manner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskcontrols/js-taskcontrol.git"
+  },
+  "keywords": [
+    "taskcontrol",
+    "workflows",
+    "tasks",
+    "batch",
+    "jobs",
+    "automation",
+    "aws",
+    "gcp",
+    "azure",
+    "testing",
+    "automation"
+  ],
+  "author": "taskcontrols, ganesh b",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taskcontrols/js-taskcontrol/issues"
+  },
+  "homepage": "https://github.com/taskcontrols/js-taskcontrol#readme",
+  "dependencies": {
+    "fastify": "^2.14.1"
+  }
+}
