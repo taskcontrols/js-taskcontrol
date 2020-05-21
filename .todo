@@ -1,0 +1,34 @@
+* Project Size should not be more than 75KB
+* [T] Allow creation of tasks
+* [T] Allow creation of common tasks
+* [T] Allow running instance, common, and both tasks 
+* [T] Add merging two workflow instances 
+* [T] Add plugin system (No config addition)
+* [T] Add pre-created workflow script list/array
+* [T] Add cleaner logging system for monitoring with 
+        - memory/console, file, server logging
+* [T] Consider adding concurrent support:
+        - multithreading, multiprocessing, async/await options
+* [T] Services+Hooks, Actions support
+* [T] Check impact of self on closure (Low priority)
+
+** [T] Add Tests
+        Add all variations of tests for 
+                - decorator, args, and kwargs
+                - function, args, and kwargs
+                - before and after middlewares
+                - run single task and multiple tasks
+        Add unit tests for main functions
+* [T] Test support for async-await in base
+        - (just need tests for async await for current single task flow logic)
+* [T] Test support for multi-threading, multiprocessing & in base
+        - (test current single task flow logic)
+* [T] Test support for Services, Actions, Hooks
+
+** [T] Config text based workflow Definition
+* Add yaml, json config consumption for workflow script list/array
+* Add UI for yaml, json creation and consumption
+
+** [T] Monitoring Workflows
+* Add Tasks, script list status Monitoring UI
+* Add Analytics UI - Consider Third party UIs
