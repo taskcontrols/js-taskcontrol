@@ -1,18 +1,19 @@
 * Project Size should not be more than 75KB
-* [T] Allow creation of tasks
-* [T] Allow creation of common tasks
-* [T] Allow running instance, common, and both tasks 
-* [T] Add merging two workflow instances 
-* [T] Add plugin system (No config addition)
-* [T] Add pre-created workflow script list/array
-* [T] Add cleaner logging system for monitoring with 
+* [D] Allow creation of tasks
+* [D] Allow creation of common tasks
+* [D] Allow running instance, common, and both tasks 
+* [D] Add merging two workflow instances 
+* [W] Add plugin system (No config addition)
+* [W] Add pre-created workflow script list/array
+* [W] Add cleaner logging system for monitoring with 
         - memory/console, file, server logging
-* [T] Consider adding concurrent support:
+* [W] Consider adding concurrent support:
         - multithreading, multiprocessing, async/await options
-* [T] Services+Hooks, Actions support
+* [W] Services+Hooks, Actions support
+* [T] Run PreCreated Tasks
 * [T] Check impact of self on closure (Low priority)
 
-** [T] Add Tests
+** [W] Add Tests
         Add all variations of tests for 
                 - decorator, args, and kwargs
                 - function, args, and kwargs
