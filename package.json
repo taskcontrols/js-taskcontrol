@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/taskcontrols/js-taskcontrol#readme",
   "dependencies": {
-    "fastify": "2.14.1"
+    "fastify": "2.15.1"
   }
 }
