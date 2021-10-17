@@ -29,7 +29,6 @@
     "url": "https://github.com/taskcontrols/js-taskcontrol/issues"
   },
   "homepage": "https://github.com/taskcontrols/js-taskcontrol#readme",
-  "dependencies": {
-    "fastify": "2.14.1"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
