@@ -3,14 +3,13 @@
 </p>
 
 # taskcontrol (js-taskcontrol)
-    Create named shared / isolated workflow task controls, and run them with respective before/after middlewares
+    
+
+##### Workflow Automation Library with support for Concurrent or Event based processes or activities in Local/Network Automation Tasks, including CI/CD activities.
 
 
-taskcontrol (js-taskcontrol) is a python library to create tasks in and based on named workflow controls. It allows middlewares before and after each task. taskcontrol can run single or multiple tasks at a task run invocation.
-
-It provides a simple decorator called `workflow` that takes the name, task_instance, task_order, shared, before, after arguments to set up the named workflow controls.
-
-It also provides methods to create a plugin and work with tasks as a module and/or pre-created ordered task list.
+* `taskcontrol (py-taskcontrol)` is a python library to create tasks in and based on named workflow controls. It allows middlewares before and after each task with support for concurrent processing. taskcontrol can run single or multiple tasks during task invocation/runs.
+* It provides a simple decorator called `workflow` that takes arguments to set up the named workflow controls. It also provides methods to create a plugin and allow working with tasks as a module and/or pre-created ordered task list. Taskcontrol allows for scaling of plugin development with various utilities like authentication, logging, concurrency, sockets, events, publisher-subscriber architectures, webhooks, client-server http api servers etc.
 
 
 # Features
@@ -20,7 +19,11 @@ It also provides methods to create a plugin and work with tasks as a module and/
 * Access read-only contexts and results of middlewares/tasks
 * Allows Merging two instances of task controls with namespace clash handling
 * Run instance, shared, and mix of tasks (individual or all groups)
-* In-Development: Allows creating, registering, and using task controls as a plugin
+* Allows working with Logging, Sockets, Events, Queues, Publisher-Subscriber Architectures, etc
+* In-Development: Allows working with commands (Todo), ssh (Todo), etc
+* In-Development: Allows working with Files (Todo - normal, yaml, ini, and csv), Scheduling (Todo), etc
+* In-Development: Allows working with best practices like Dependency Injection (Todo), ORMs/Databases (Todo), Authentication (Todo), etc from within the library and workflows/tasks
+* In-Development: Allows creating, registering, and using tasks/workflows as a plugin
 
 
 # Installation
@@ -221,13 +224,15 @@ ls.reduce(red)
 
 * e2e and Unit Tests - Add Tests (Structure of package created - to be cleaned after writing tests)
 * Allow creating and registering a set of task controls as a plugin
-* Add logging system
+* Allow working with commands (Todo), ssh (Todo), Files (Todo - normal, yaml, ini, json, and csv), Scheduling (Todo), Dependency Injection (Todo), ORMs/Databases (Todo), Authentication (Todo)
+* [C?] Consider Workflow/Tasks tracking system and Dashboard with its own progress and logging
+* [C?] Consider compatibility to Chef/CircleCI/Github/Other Automation tools, atleast as external added plugins
 
 
 # Status
 
-* In Active Development (taskcontrol version 1.2.6)
-
+* In Active Development (taskcontrol version 1.0.0-beta)
+    - Check https://github.com/taskcontrols/py-taskcontrol/ for features
 
 # Support
 

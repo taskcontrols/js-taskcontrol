@@ -1,35 +1,3 @@
 * Project Size should not be more than 75KB
-* [D] Allow creation of tasks
-* [D] Allow creation of common tasks
-* [D] Allow running instance, common, and both tasks 
-* [D] Add merging two workflow instances 
-* [W] Add plugin system (No config addition)
-* [W] Add pre-created workflow script list/array
-* [W] Add cleaner logging system for monitoring with 
-        - memory/console, file, server logging
-* [W] Consider adding concurrent support:
-        - multithreading, multiprocessing, async/await options
-* [W] Services+Hooks, Actions support
-* [T] Run PreCreated Tasks
-* [T] Check impact of self on closure (Low priority)
-
-** [W] Add Tests
-        Add all variations of tests for 
-                - decorator, args, and kwargs
-                - function, args, and kwargs
-                - before and after middlewares
-                - run single task and multiple tasks
-        Add unit tests for main functions
-* [T] Test support for async-await in base
-        - (just need tests for async await for current single task flow logic)
-* [T] Test support for multi-threading, multiprocessing & in base
-        - (test current single task flow logic)
-* [T] Test support for Services, Actions, Hooks
-
-** [T] Config text based workflow Definition
-* Add yaml, json config consumption for workflow script list/array
-* Add UI for yaml, json creation and consumption
-
-** [T] Monitoring Workflows
-* Add Tasks, script list status Monitoring UI
-* Add Analytics UI - Consider Third party UIs
+ - Check TODO for Python project - Similar Features
+        - https://github.com/taskcontrols/py-taskcontrol/blob/master/.todo
