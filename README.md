@@ -229,7 +229,7 @@ ls.reduce(red)
 
 # Status
 
-* In Active Development (taskcontrol version 1.0.0-beta)
+* In Active Development (taskcontrol version py-taskcontrol V1.2.6 equivalent)
     - Check https://github.com/taskcontrols/py-taskcontrol/ for features
 
 # Support
