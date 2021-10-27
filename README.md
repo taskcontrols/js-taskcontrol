@@ -38,9 +38,7 @@
 
 ##### Version:
 
-    In Development Version: 1.2.6 (functional - production ready with plugin and concurrency support, fully tested)
-
-
+    In Development Version: py-taskcontrol V1.2.6 equivalent (functional - production ready with plugin and concurrency support, fully tested) 
 
 [Releases](https://github.com/taskcontrols/js-taskcontrol/blob/master/docs/users/releases.md) Lists in short the releases of the package
 
