@@ -17,7 +17,7 @@
 * In-Development: Create Named task controls (tasks) - instance and isolated
 * In-Development: Allows before / after middlewares for each task
 * In-Development: Access read-only contexts and results of middlewares/tasks
-* In-Development: Allows Merging two instances of task controls with namespace clash handling
+* In-Development: Allows merging two instances of task controls with namespace clash handling
 * In-Development: Run instance, shared, and mix of tasks (individual or all groups)
 * In-Development: Allows working with Logging, Sockets, Events, Queues, Publisher-Subscriber Architectures, etc
 * In-Development: Allows working with commands (Todo), ssh (Todo), etc
