@@ -33,7 +33,7 @@
 
 * Node.js
 
-        npm install ***TBD***
+        npm install taskcontrol
 
 
 ##### Version:
@@ -46,7 +46,7 @@
 ##### Package Link:
     
     https://github.com/taskcontrols/js-taskcontrol
-    https://npmjs.com/...
+    https://www.npmjs.com/package/taskcontrol
     
 ##### Website:
     
