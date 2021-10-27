@@ -15,7 +15,7 @@
 # Features
 
 * In-Development: Create Named task controls (tasks) - instance and isolated
-* In-Development: Allows middlewares before / after each task (data fetch, auth, data save, logging, logout, cleanup, etc)
+* In-Development: Allows before / after middlewares for each task
 * In-Development: Access read-only contexts and results of middlewares/tasks
 * In-Development: Allows Merging two instances of task controls with namespace clash handling
 * In-Development: Run instance, shared, and mix of tasks (individual or all groups)
