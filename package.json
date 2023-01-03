@@ -43,6 +43,7 @@
     "queues.js": "^0.0.22-beta",
     "request-apis": "^0.0.27-beta",
     "sockets": "^0.4.2",
+    "ssh2": "^1.11.0",
     "typeorm": "^0.3.11",
     "ws": "^8.11.0"
   }
