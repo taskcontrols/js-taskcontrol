@@ -39,8 +39,10 @@
     "concurrency.js": "^0.0.23-beta",
     "dotenv": "^16.0.3",
     "ftps": "^1.2.0",
+    "hasher-apis": "^0.2.1",
     "node-ipc": "^11.1.0",
     "queues.js": "^0.0.22-beta",
+    "request-apis": "^0.0.27-beta",
     "sockets": "^0.4.2",
     "typeorm": "^0.3.11",
     "ws": "^8.11.0"
