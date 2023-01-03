@@ -29,6 +29,19 @@
     "url": "https://github.com/taskcontrols/js-taskcontrol/issues"
   },
   "homepage": "https://github.com/taskcontrols/js-taskcontrol#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1"
+  },
+  "dependencies": {
+    "csv": "^6.2.5",
+    "dotenv": "^16.0.3",
+    "ini": "^3.0.1",
+    "node-ipc": "^11.1.0",
+    "shelljs": "^0.8.5",
+    "typeorm": "^0.3.11",
+    "xml-js": "^1.6.11",
+    "yaml": "^2.2.1"
+  }
 }
