@@ -55,6 +55,50 @@
     https://taskcontrols.github.io/
 
 
+# Supported Architectures within the Libraries
+
+
+### Workflow Task Execution Architecture
+
+![Workflow Execution Architecture](./docs/architecture/Workflow%20Architecture.jpg "Workflow Execution Architecture")
+
+![Workflow Task Execution Architecture](./docs/architecture/Workflow%20Task%20Architecture.jpg "Workflow Task Execution Architecture")
+
+
+### Publisher Subscriber, Message Queue, and Two Way Socket Events Architecture
+
+![Message Queue Architecture](./docs/architecture/MESSAGE%20QUEUE%20ARCHITECTURE.jpg "Message Queue Architecture")
+
+![Publisher Subscriber Architecture](./docs/architecture/PUBLISHER%20SUBSCRIBER%20ARCHITECTURE.jpg "Publisher Subscriber Architecture")
+
+![Two Way Socket Events Architecture](./docs/architecture/TWO%20WAY%20EVENTS%20SOCKETS%20SERVER%20ARCHITECTURE.jpg "Two Way Socket Events Architecture")
+
+
+### Server - Client Agentless SSH Architecture
+
+![Agentless Architecture](./docs/architecture/SERVER%20-%20CLIENT%20AGENTLESS%20SSH%20ARCHITECTURE.jpg "Agentless Architecture")
+
+
+### Server - Client Agent Architecture
+
+![Server-Client Agent Architecture](./docs/architecture/SERVER%20AGENT%20-%20CLIENT%20AGENT%20ARCHITECTURE.jpg "Server - Client Agent Architecture")
+
+
+### REST API Architecture
+
+![REST API Access Architecture](./docs/architecture/REST%20API%20ARCHITECTURE.jpg "REST API Access Architecture")
+
+
+### Webhooks Architecture
+
+![Webhooks Architecture](./docs/architecture/WEBHOOKS%20ARCHITECTURE.jpg "Webhooks Architecture")
+
+
+### Authentication and Data Persistence Architecture
+
+![Authentication and Data Persistence Architecture](./docs/architecture/PERSISTENT%20DATA%20PLUS%20AUTHENTICATION%20ARCHITECTURE.jpg "Authentication and Data Persistence Architecture")
+
+
 # Technical Specifications
 
 
