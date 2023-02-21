@@ -1,3 +1,79 @@
 * Project Size should not be more than 75KB
  - Check TODO for Python project - Similar Features
         - https://github.com/taskcontrols/py-taskcontrol/blob/master/.todo
+
+* Project Size should not be more than 75KB
+* [D] Allow creation of tasks
+* [D] Allow creation of common tasks
+* [D] Allow running instance, common, and both tasks 
+* [T] Allow running instance, common, and both tasks with dynamic runtime args coming from functions or taskcontrol-tasks
+* [T] Allow running instance, common, and both tasks with dynamic runtime kwargs coming from functions or taskcontrol-tasks
+* [D] Allow running before middlewares for every instance, common, and both tasks
+* [T] Allow running before middlewares as taskcontrol-task for every instance, common, and both tasks  
+* [D] Allow running after middlewares for every instance, common, and both tasks 
+* [T] Allow running after middlewares as taskcontrol-task for every instance, common, and both tasks  
+* [D] Add merging two workflow instances 
+* [W] Add ordered workflow runs 
+* [W] Add workflow name clashes inside an instance
+* [W] Add allowing of repetitive tasks using schedular
+* [T] Run PreCreated Tasks
+* [W] Add plugin system
+* [W] Add pre-created workflow script list/array
+* [T] Add plugin system with No config addition from a plugin main file
+* [W] Add cleaner logging system for monitoring with 
+        - memory/console logging, 
+        - file logging, 
+        - server/ remote logging
+* [T] Logging & Concurrency for logger (Concurrency can be added)
+* [W] Consider adding concurrent support:
+        - multithreading, 
+        - multiprocessing, 
+        - async/await options
+* [W] Actions support
+* [W] Services+Hooks support
+* [T] Check impact of self on closure (Low priority)
+* [T] Consider adding decorator generator in utils like https://click.palletsprojects.com/en/8.0.x/
+* [T] Consider dynamic args and kwargs (High Priority)
+        - 3 use cases of dynamic arguments
+                - function returns invoked and returning args/ kwargs during execution of task
+                - task returns invoked and returning args/ kwargs during execution of task
+        - test for:
+                - function returns invoked immediately and returning args/ kwargs during execution of task
+                - task returns invoked immediately and returning args/ kwargs before execution of task
+
+** [W] Add Tests
+        Add all variations of tests for 
+                - decorator, args, and kwargs
+                - function, args, and kwargs
+                - before and after middlewares
+                - run single task and multiple tasks
+        Add unit tests for main functions
+* [T] Test support for async-await in base
+        - (just need tests for async await for current single task flow logic)
+* [T] Test support for multi-threading, multiprocessing & in base
+        - (test current single task flow logic)
+* [T] Test support for Services, Actions, Hooks
+
+** [T] Config text based workflow Definition
+* Add yaml, json config consumption for workflow script list/array
+* Add UI for yaml, json creation and consumption
+
+** [T] Monitoring Workflows - ./admin/monitor.py
+* [C?] Add Tasks, script list status Monitoring UI - 
+* [C?] Add Analytics UI - Consider Third party UIs
+* [C?] Consider Workflow/Tasks tracking system and Dashboard with its own progress and logging
+* [C?] Consider compatibility to Chef/CircleCI/Github/Other Automation tools, atleast as external added plugins
+* [T] Planned Integrations with Subversioning, Build Tools, Deployment, Data Transformation / Analytics Tooling, Testing, and Infrastructure toolings (List generation pending)
+* [T] Check Queue features compare https://github.com/FabrizioBrancati/Queuer and MQ and Rabbit for the pub-sub queue in .js after adding the concurrency
+* [T] Agent based Client-Server Plugins 
+* [T] Agent-less based SSH support Plugins 
+* [T] PubSub Queue Message Queue - 
+* [T] PubSub Queue Server Agent - 
+* [T] PubSub Queue Subscriber Agent - 
+* [T] Monitor - 
+* [T] Git - 
+* [T] Communication plus REST API Server - 
+* [T] WebHook Server - 
+* [T] WebHook Client - 
+* [T] Compatibility to https://www.amqp.org/
+
